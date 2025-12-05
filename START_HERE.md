@@ -21,7 +21,7 @@ Welcome! This is your entry point to the ETH Zurich document processing pipeline
 HTML Files → Clean Text → Metadata → Relevance Scores
    ↓            ↓           ↓              ↓
 Stage 1.1   Stage 1.2   Stage 2.1     Stage 2.2
-(Free)      (Free)      ($0.02)       ($0.03)
+(Free)      (Free)      (~$0.001)     (~$0.002)
 ```
 
 **Input**: Raw HTML documents (ETH Zurich content)  
@@ -146,7 +146,7 @@ cat .env  # Check API key is set
 ✅ Keywords  
 ✅ Summaries  
 
-### Stage 2 Output (~$0.03-0.05 per chunk)
+### Stage 2 Output (~$0.0015-0.003 per chunk, GPT-4o-mini)
 ✅ Structured metadata  
 ✅ Topic tags  
 ✅ Event dates  

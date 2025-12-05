@@ -322,7 +322,7 @@ logging.basicConfig(level=logging.DEBUG, format="%(levelname)s: %(message)s")
 ## 💡 Tips & Best Practices
 
 1. **Start Small**: Test with a small subset of HTML files first
-2. **Monitor Costs**: Stage 2 costs ~$0.01-0.05 per chunk
+2. **Monitor Costs**: Stage 2 costs ~$0.0015-0.003 per chunk (GPT-4o-mini)
 3. **Backup Data**: Keep original HTML files separate
 4. **Version Control**: Don't commit `data/` or `.env` to git
 5. **Quality Check**: Review outputs after each stage

@@ -123,12 +123,14 @@ python analyze_results.py  # Your analysis script
 
 **Stage 1**: Free (local processing)
 
-**Stage 2** (OpenAI API):
-- Metadata extraction: ~$0.01-0.02 per chunk
-- Relevance scoring: ~$0.02-0.03 per chunk
-- **Total**: ~$0.03-0.05 per chunk
+**Stage 2** (OpenAI API with GPT-4o-mini):
+- Metadata extraction: ~$0.0005-0.001 per chunk
+- Relevance scoring: ~$0.001-0.002 per chunk
+- **Total**: ~$0.0015-0.003 per chunk
 
-For 1000 chunks: ~$30-50
+For 1000 chunks: ~$1.50-$3.00
+
+**Note**: Based on GPT-4o-mini pricing ($0.15/1M input tokens, ~$0.60/1M output tokens). Always test with a small batch first and monitor your actual usage.
 
 ## 🔍 Verify Output
 

@@ -117,7 +117,7 @@ python step_1_4_benchmark_extraction.py \
     data_cleaned/benchmark_qa.json
 ```
 
-**Stage 2** (Requires API key, costs ~$0.03-0.05 per chunk):
+**Stage 2** (Requires API key, costs ~$0.0015-0.003 per chunk with GPT-4o-mini):
 ```bash
 # First, chunk your documents (your own chunking script)
 # Then:
@@ -186,11 +186,13 @@ python 2_1_2_relevance_score.py
 - **Time**: ~5-15 seconds per document
 - **Requires**: CPU, RAM, spaCy models
 
-### Stage 2 (OpenAI API)
-- **Metadata Extraction**: $0.01-0.02 per chunk
-- **Relevance Scoring**: $0.02-0.03 per chunk
-- **Total per chunk**: ~$0.03-0.05
-- **1000 chunks**: ~$30-50
+### Stage 2 (OpenAI API with GPT-4o-mini)
+- **Metadata Extraction**: ~$0.0005-0.001 per chunk
+- **Relevance Scoring**: ~$0.001-0.002 per chunk
+- **Total per chunk**: ~$0.0015-0.003
+- **1000 chunks**: ~$1.50-$3.00
+
+**Note**: Based on GPT-4o-mini pricing ($0.15/1M input tokens, ~$0.60/1M output tokens). Always test with a small batch first and monitor your actual usage.
 
 ## ⚠️ Important Notes
 
