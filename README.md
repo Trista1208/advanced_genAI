@@ -449,3 +449,4 @@ This project is an assignment for Course: Advanced Generative AI at IDS-HSLU
 ---
 
 **Note**: This project is designed to run in Google Colab. Adjust paths and configurations for local execution.
+
