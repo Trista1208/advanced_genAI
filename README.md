@@ -357,14 +357,4 @@ When adding new features:
 3. Update this README
 4. Follow existing code style
 
-## 📄 License
-
-[Specify your license here]
-
-## 📧 Contact
-
-[Add contact information]
-
----
-
 **Last Updated**: December 2025
