@@ -105,18 +105,21 @@ advanced_genAI-main/
 │   ├── step_1_hybrid.py                    # Hybrid HTML parsing (BS + Docling)
 │   ├── step_1_2_advanced_cleaning_and_metadata.py  # Advanced cleaning & metadata
 │   ├── step_1_3_validation_filter.py       # Document validation
-│   └── step_1_4_benchmark_extraction.py    # Benchmark QA extraction
+│   ├── step_1_4_benchmark_extraction.py    # Benchmark QA extraction
+│   ├── 2_1_llm_metadataextraction.py       # LLM-based metadata extraction
+│   ├── 2_1_2_relevance_score.py            # Relevance scoring
+|   ├── Step_1_Subsample_Baseline_Setup.ipynb
+|   └── Step_1_Full_corpus_Baseline_Setup.ipynb
 │
 ├── Step 2: Multi-Agent System Design
-│   ├── Multi_agent_system_design_Step_2.ipynb  # Main orchestration notebook
-│   ├── 2_1_llm_metadataextraction.py       # LLM-based metadata extraction
-│   └── 2_1_2_relevance_score.py            # Relevance scoring
-│
+│   ├── Step_2_Subsample_Multi_agent_system_design.ipynb  # Main orchestration notebook
+│   └── Step_2_Full_corpus_Multi_agent_system_design.ipynb
+|
 ├── Step 3: Evaluation and Analysis
-│   ├── Step_3_Evaluation_and_Analysis.ipynb    # Comprehensive evaluation
-│   └── Step_3_Evaluation_Script.py         # Evaluation framework (Python)
+|   ├── Step_3_Evaluation_Script.py         # Evaluation framework (Python)
+│   ├── Step_3_Subsample_Evaluation_and_Analysis.ipynb
+│   └── Step_3_Full_corpus_Evaluation_and_Analysis.ipynb        
 │
-├── baseline_setup.ipynb                    # Baseline system setup
 └── README.md                               # This file
 ```
 
