@@ -182,29 +182,16 @@ pip install openai pydantic python-dotenv
 
 ### Step 1: Document Processing
 
-Process raw HTML/PDF documents into structured JSON with metadata.
+- Process raw HTML/PDF documents into structured JSON with metadata.
+- Retrievers are built
 
-```bash
-# 1. Hybrid parsing (BeautifulSoup + Docling)
-python step_1_hybrid.py input_dir output_dir
-
-# 2. Advanced cleaning and metadata extraction
-python step_1_2_advanced_cleaning_and_metadata.py input_dir output_dir --threshold 5
-
-# 3. Validation and filtering
-python step_1_3_validation_filter.py input_dir output_dir
-
-# 4. Benchmark extraction (if needed)
-python step_1_4_benchmark_extraction.py ...
-```
-
-**Output**: Cleaned JSON documents with metadata (entities, keywords, summaries, etc.)
+**Output**: Cleaned JSON documents with metadata (entities, keywords, summaries, etc.) + Best Retriever Models
 
 ### Step 2: Multi-Agent System Design
 
 Build and configure retrieval agents and orchestration strategies.
 
-1. **Open `Multi_agent_system_design_Step_2.ipynb`**
+1. **Open `Step_2_Full_corpus_Multi_agent_system_design.ipynb` or `Step_2_Subsample_Multi_agent_system_design.ipynb`**
 2. **Load retrievers**:
    - BM25 with query expansion
    - Dense vector retriever (ChromaDB)
